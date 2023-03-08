@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "github.com/choutsugi/freedom/examples/pb/player";
+
+package player;
+
+message CS_Login {
+  string username = 1;
+  string password = 2;
+}
