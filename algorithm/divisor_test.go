@@ -1,4 +1,4 @@
-package sugar
+package algorithm
 
 import (
 	"fmt"
